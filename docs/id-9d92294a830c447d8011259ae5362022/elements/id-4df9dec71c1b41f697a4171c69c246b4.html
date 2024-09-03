@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Behandeling </title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Behandeling </b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-Grouping"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-Grouping" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+                    	<li role="presentation"><a href="#analysis" aria-controls="analysis" role="tab" data-toggle="tab" class="i18n-analysis"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Behandeling van de pati&#235;nt.</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr id="used-in-views-id-d20c8983899742b1b6d81fa1be1b7971">
+																	<td><a href="../views/id-d20c8983899742b1b6d81fa1be1b7971.html" target="view" title="01. Informatiedomeinen MsZ"> 01. Informatiedomeinen MsZ </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+									<tr>
+											<td><a href="../elements/id-137835a1f73f4c7585d1e5828d62d6aa.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-4df9dec71c1b41f697a4171c69c246b4.html" target="element"> Behandeling </a></td>
+											<td><a href="../elements/EAID_E6736EEE_D0F7_40cd_BCF6_EB371620B07D.html" target="element"> Therapie </a></td>
+										</tr><tr>
+											<td><a href="../elements/id-2b9aae1cd3df4db1884e1cd7f9732bd3.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-4df9dec71c1b41f697a4171c69c246b4.html" target="element"> Behandeling </a></td>
+											<td><a href="../elements/EAID_4C3C030B_C75C_4991_BC6C_575A4A83B3B0.html" target="element"> Verpleging </a></td>
+										</tr><tr>
+											<td><a href="../elements/id-2be5e5b4df194deda8331752fd183cad.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-4df9dec71c1b41f697a4171c69c246b4.html" target="element"> Behandeling </a></td>
+											<td><a href="../elements/EAID_70FF6119_AD00_490c_8C53_444C1BCD6112.html" target="element"> Operatie </a></td>
+										</tr><tr>
+											<td><a href="../elements/id-3e082037d9cb440b9476df2536e68f06.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-4df9dec71c1b41f697a4171c69c246b4.html" target="element"> Behandeling </a></td>
+											<td><a href="../elements/EAID_FE5A29D3_0EE8_406d_A949_E207AA6DF1AB.html" target="element"> Overige behandelingen </a></td>
+										</tr><tr>
+											<td><a href="../elements/id-ab5fc58b20744ecb95dc612a7df88fb6.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-4df9dec71c1b41f697a4171c69c246b4.html" target="element"> Behandeling </a></td>
+											<td><a href="../elements/EAID_B0378213_8FF1_4187_ADFA_D3D3584244E0.html" target="element"> Medicatie </a></td>
+										</tr><tr>
+											<td><a href="../elements/id-edc5d64dce914a33893508912794b112.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-4df9dec71c1b41f697a4171c69c246b4.html" target="element"> Behandeling </a></td>
+											<td><a href="../elements/EAID_9EA16BF8_D46A_4bd0_9B2D_C70502F10800.html" target="element"> Verzorging </a></td>
+										</tr>
+									<tr>
+											<td><a href="../elements/id-5ecfc2f8ff8d4650bd53c4daa383db2e.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-c7a9ab928e8a499e811cbddaccf6989c.html" target="element"> Zorg </a></td>
+											<td><a href="../elements/id-4df9dec71c1b41f697a4171c69c246b4.html" target="element"> Behandeling </a></td>
+										</tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
