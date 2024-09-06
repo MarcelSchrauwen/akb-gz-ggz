@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Analyses use cases</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Analyses use cases</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/id-db7fccefb0fe4f23b17a9186619884c7.png" alt="Analyses use cases" usemap="#id-db7fccefb0fe4f23b17a9186619884c7map"/>
+			   <map name="id-db7fccefb0fe4f23b17a9186619884c7map">
+				  		<area shape="rect" coords="10,10,352,37" href="../views/id-c5c52947b776425f9d64578442a32cc5.html"  target="view">
+				      <!-- Other diagram objects -->
+				  		<area shape="rect" coords="910,58,1331,875" href="../elements/id-7a1ee8aa1226449cb628e89779e16deb.html"  target="element">
+				  		<area shape="rect" coords="466,58,887,875" href="../elements/id-07390ebbf7514dd89adfd6392ffacdd2.html"  target="element">
+				  				<area shape="rect" coords="250,814,419,855" href="../elements/id-dfcfe10d03e347d08fca6a47f4db7e22.html"  target="element">
+				  				<area shape="rect" coords="34,814,203,855" href="../elements/id-8e49fba3c71f4bbe86383a9088d4a8a9.html"  target="element">
+				  				<area shape="rect" coords="250,754,419,795" href="../elements/id-2e69d9d0b85845738d5422a2bdee3e9d.html"  target="element">
+				  				<area shape="rect" coords="34,754,203,795" href="../elements/id-c3af8bcf6b5f4285a1a640cfeefba4da.html"  target="element">
+				  				<area shape="rect" coords="250,694,419,735" href="../elements/id-e81e9b25a3fc445bb5272e66f2fe28a2.html"  target="element">
+				  				<area shape="rect" coords="250,634,419,675" href="../elements/id-da50ddee54574b6da8e042a34fe16f3d.html"  target="element">
+				  				<area shape="rect" coords="34,574,203,615" href="../elements/id-9731da0b3c904315ac6003c4eda8148a.html"  target="element">
+				  				<area shape="rect" coords="250,574,419,615" href="../elements/id-69a49330fb8f4cda836f12c6f50f1043.html"  target="element">
+				  				<area shape="rect" coords="250,514,419,555" href="../elements/id-f0b5d13ca09d4cb3aca9c2dad8466006.html"  target="element">
+				  				<area shape="rect" coords="250,454,419,495" href="../elements/id-fdaf3ee674d1474492eb647007086828.html"  target="element">
+				  				<area shape="rect" coords="250,394,419,435" href="../elements/id-3b13e19df60446a68bf09b55787e98f3.html"  target="element">
+				  				<area shape="rect" coords="34,394,203,435" href="../elements/id-42e9e4a1c8034b82a1857a7fc3937f78.html"  target="element">
+				  				<area shape="rect" coords="250,334,419,375" href="../elements/id-cbcc80c1b4ce4505b50f4552e76755e6.html"  target="element">
+				  				<area shape="rect" coords="250,274,419,315" href="../elements/id-0b4379df3913443cb1c173400fc8c598.html"  target="element">
+				  				<area shape="rect" coords="250,214,419,255" href="../elements/id-e75e74c1af434010ac976effa34b34de.html"  target="element">
+				  				<area shape="rect" coords="34,214,203,255" href="../elements/id-bf1010de00654282b87852e02b7481d3.html"  target="element">
+				  				<area shape="rect" coords="250,154,419,195" href="../elements/id-80c42ab458a44e0f85b4fcb0a7e4672e.html"  target="element">
+				  				<area shape="rect" coords="34,154,203,195" href="../elements/id-40a306f3e84f46d8a26696fd8db04ef1.html"  target="element">
+				  				<area shape="rect" coords="250,94,419,135" href="../elements/id-f7f45997489a44ae9c2b23bb8cf0db67.html"  target="element">
+				  				<area shape="rect" coords="34,94,203,135" href="../elements/id-ef22cb2722e94975b3b17ac8f96a1bf4.html"  target="element">
+
+				  		<area shape="rect" coords="22,58,443,875" href="../elements/id-bcb9a18446ba43769024dc252f7520b2.html"  target="element">
+
+			   </map>
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Analyses die tot nu toe gedaan zijn met betrekking tot gegevensuiwisseling. Dingen die beter kunnen maar ook dingen die goed gaan.</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr>
+											    <td> <a href="../elements/id-bcb9a18446ba43769024dc252f7520b2.html" target="element"> Analyse consultvraag </a> </td>
+											    <td> <a href="../elements/id-bcb9a18446ba43769024dc252f7520b2.html" target="element" class="i18n-elementtype-Assessment">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-ef22cb2722e94975b3b17ac8f96a1bf4.html" target="element"> Analyse consultvraag 1 </a> </td>
+													    <td> <a href="../elements/id-ef22cb2722e94975b3b17ac8f96a1bf4.html" target="element" class="i18n-elementtype-Assessment">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-f7f45997489a44ae9c2b23bb8cf0db67.html" target="element"> Analyse consultvraag 1.1 </a> </td>
+													    <td> <a href="../elements/id-f7f45997489a44ae9c2b23bb8cf0db67.html" target="element" class="i18n-elementtype-Assessment">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-40a306f3e84f46d8a26696fd8db04ef1.html" target="element"> Analyse consultvraag 2 </a> </td>
+													    <td> <a href="../elements/id-40a306f3e84f46d8a26696fd8db04ef1.html" target="element" class="i18n-elementtype-Assessment">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-80c42ab458a44e0f85b4fcb0a7e4672e.html" target="element"> Analyse consultvraag 2.1 </a> </td>
+													    <td> <a href="../elements/id-80c42ab458a44e0f85b4fcb0a7e4672e.html" target="element" class="i18n-elementtype-Assessment">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-bf1010de00654282b87852e02b7481d3.html" target="element"> Analyse consultvraag 3 </a> </td>
+													    <td> <a href="../elements/id-bf1010de00654282b87852e02b7481d3.html" target="element" class="i18n-elementtype-Assessment">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-e75e74c1af434010ac976effa34b34de.html" target="element"> Analyse consultvraag 3.1 </a> </td>
+													    <td> <a href="../elements/id-e75e74c1af434010ac976effa34b34de.html" target="element" class="i18n-elementtype-Assessment">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-0b4379df3913443cb1c173400fc8c598.html" target="element"> Analyse consultvraag 3.2 </a> </td>
+													    <td> <a href="../elements/id-0b4379df3913443cb1c173400fc8c598.html" target="element" class="i18n-elementtype-Assessment">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-cbcc80c1b4ce4505b50f4552e76755e6.html" target="element"> Analyse consultvraag 3.3 </a> </td>
+													    <td> <a href="../elements/id-cbcc80c1b4ce4505b50f4552e76755e6.html" target="element" class="i18n-elementtype-Assessment">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-42e9e4a1c8034b82a1857a7fc3937f78.html" target="element"> Analyse consultvraag 4 </a> </td>
+													    <td> <a href="../elements/id-42e9e4a1c8034b82a1857a7fc3937f78.html" target="element" class="i18n-elementtype-Assessment">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-3b13e19df60446a68bf09b55787e98f3.html" target="element"> Analyse consultvraag 4.1 </a> </td>
+													    <td> <a href="../elements/id-3b13e19df60446a68bf09b55787e98f3.html" target="element" class="i18n-elementtype-Assessment">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-fdaf3ee674d1474492eb647007086828.html" target="element"> Analyse consultvraag 4.2 </a> </td>
+													    <td> <a href="../elements/id-fdaf3ee674d1474492eb647007086828.html" target="element" class="i18n-elementtype-Assessment">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-f0b5d13ca09d4cb3aca9c2dad8466006.html" target="element"> Analyse consultvraag 4.3 </a> </td>
+													    <td> <a href="../elements/id-f0b5d13ca09d4cb3aca9c2dad8466006.html" target="element" class="i18n-elementtype-Assessment">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-69a49330fb8f4cda836f12c6f50f1043.html" target="element"> Analyse consultvraag 5.1 </a> </td>
+													    <td> <a href="../elements/id-69a49330fb8f4cda836f12c6f50f1043.html" target="element" class="i18n-elementtype-Assessment">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-9731da0b3c904315ac6003c4eda8148a.html" target="element"> Analyse consultvraag 5 </a> </td>
+													    <td> <a href="../elements/id-9731da0b3c904315ac6003c4eda8148a.html" target="element" class="i18n-elementtype-Assessment">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-da50ddee54574b6da8e042a34fe16f3d.html" target="element"> Analyse consultvraag 5.2 </a> </td>
+													    <td> <a href="../elements/id-da50ddee54574b6da8e042a34fe16f3d.html" target="element" class="i18n-elementtype-Assessment">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-e81e9b25a3fc445bb5272e66f2fe28a2.html" target="element"> Analyse consultvraag 5.3 </a> </td>
+													    <td> <a href="../elements/id-e81e9b25a3fc445bb5272e66f2fe28a2.html" target="element" class="i18n-elementtype-Assessment">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-c3af8bcf6b5f4285a1a640cfeefba4da.html" target="element"> Analyse consultvraag 6 </a> </td>
+													    <td> <a href="../elements/id-c3af8bcf6b5f4285a1a640cfeefba4da.html" target="element" class="i18n-elementtype-Assessment">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-2e69d9d0b85845738d5422a2bdee3e9d.html" target="element"> Analyse consultvraag 6.1 </a> </td>
+													    <td> <a href="../elements/id-2e69d9d0b85845738d5422a2bdee3e9d.html" target="element" class="i18n-elementtype-Assessment">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-8e49fba3c71f4bbe86383a9088d4a8a9.html" target="element"> Analyse consultvraag 7 </a> </td>
+													    <td> <a href="../elements/id-8e49fba3c71f4bbe86383a9088d4a8a9.html" target="element" class="i18n-elementtype-Assessment">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-dfcfe10d03e347d08fca6a47f4db7e22.html" target="element"> Analyse consultvraag 7.1 </a> </td>
+													    <td> <a href="../elements/id-dfcfe10d03e347d08fca6a47f4db7e22.html" target="element" class="i18n-elementtype-Assessment">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-07390ebbf7514dd89adfd6392ffacdd2.html" target="element"> Analyse medebehandeling </a> </td>
+											    <td> <a href="../elements/id-07390ebbf7514dd89adfd6392ffacdd2.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-7a1ee8aa1226449cb628e89779e16deb.html" target="element"> Analyse intercollegiaal contact </a> </td>
+											    <td> <a href="../elements/id-7a1ee8aa1226449cb628e89779e16deb.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../views/id-c5c52947b776425f9d64578442a32cc5.html" target="view"> Samenwerking door schaarste in beroepsgroepen (GZ) </a> </td>
+											    <td> <a href="../views/id-c5c52947b776425f9d64578442a32cc5.html" target="view" class="i18n-viewpoint-"> </a> </td>
+											</tr>
+									    <!-- Other graphical objects -->
+
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+																	<tr>
+																		<td> <a href="../elements/id-7a9947187369499f863f0a9188e02031.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-7a9947187369499f863f0a9188e02031.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-bcb9a18446ba43769024dc252f7520b2.html" target="element"> Analyse consultvraag </a> </td>
+																		<td> <a href="../elements/id-ef22cb2722e94975b3b17ac8f96a1bf4.html" target="element"> Analyse consultvraag 1 </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-20c29930dc18434fb29dcff092acfd94.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-20c29930dc18434fb29dcff092acfd94.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-bcb9a18446ba43769024dc252f7520b2.html" target="element"> Analyse consultvraag </a> </td>
+																		<td> <a href="../elements/id-f7f45997489a44ae9c2b23bb8cf0db67.html" target="element"> Analyse consultvraag 1.1 </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-cf2abfe6fbb34de89e160aebbdc336ba.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-cf2abfe6fbb34de89e160aebbdc336ba.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-bcb9a18446ba43769024dc252f7520b2.html" target="element"> Analyse consultvraag </a> </td>
+																		<td> <a href="../elements/id-40a306f3e84f46d8a26696fd8db04ef1.html" target="element"> Analyse consultvraag 2 </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-9c2535f905ad41608b1e23e1a5bf2109.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-9c2535f905ad41608b1e23e1a5bf2109.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-bcb9a18446ba43769024dc252f7520b2.html" target="element"> Analyse consultvraag </a> </td>
+																		<td> <a href="../elements/id-80c42ab458a44e0f85b4fcb0a7e4672e.html" target="element"> Analyse consultvraag 2.1 </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-002bef10ed654b5ab68f5f8ef0a76e87.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-002bef10ed654b5ab68f5f8ef0a76e87.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-bcb9a18446ba43769024dc252f7520b2.html" target="element"> Analyse consultvraag </a> </td>
+																		<td> <a href="../elements/id-bf1010de00654282b87852e02b7481d3.html" target="element"> Analyse consultvraag 3 </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-0c5b22ac3a81439c8a0f1176eb52bbde.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-0c5b22ac3a81439c8a0f1176eb52bbde.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-bcb9a18446ba43769024dc252f7520b2.html" target="element"> Analyse consultvraag </a> </td>
+																		<td> <a href="../elements/id-e75e74c1af434010ac976effa34b34de.html" target="element"> Analyse consultvraag 3.1 </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-8b7753b6b93540c18cf840913d041b5f.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-8b7753b6b93540c18cf840913d041b5f.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-bcb9a18446ba43769024dc252f7520b2.html" target="element"> Analyse consultvraag </a> </td>
+																		<td> <a href="../elements/id-0b4379df3913443cb1c173400fc8c598.html" target="element"> Analyse consultvraag 3.2 </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-c213c2f0d89c4ab6a1c746521544371b.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-c213c2f0d89c4ab6a1c746521544371b.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-bcb9a18446ba43769024dc252f7520b2.html" target="element"> Analyse consultvraag </a> </td>
+																		<td> <a href="../elements/id-cbcc80c1b4ce4505b50f4552e76755e6.html" target="element"> Analyse consultvraag 3.3 </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-2d696750787c4647a5e5a4a02c7a7776.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-2d696750787c4647a5e5a4a02c7a7776.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-bcb9a18446ba43769024dc252f7520b2.html" target="element"> Analyse consultvraag </a> </td>
+																		<td> <a href="../elements/id-42e9e4a1c8034b82a1857a7fc3937f78.html" target="element"> Analyse consultvraag 4 </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-e20069578f2f4cb3befd10836ad03b27.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-e20069578f2f4cb3befd10836ad03b27.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-bcb9a18446ba43769024dc252f7520b2.html" target="element"> Analyse consultvraag </a> </td>
+																		<td> <a href="../elements/id-3b13e19df60446a68bf09b55787e98f3.html" target="element"> Analyse consultvraag 4.1 </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-8f2d7417574940b79c090b51a38859f8.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-8f2d7417574940b79c090b51a38859f8.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-bcb9a18446ba43769024dc252f7520b2.html" target="element"> Analyse consultvraag </a> </td>
+																		<td> <a href="../elements/id-fdaf3ee674d1474492eb647007086828.html" target="element"> Analyse consultvraag 4.2 </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-3a2828948d754cd48b2f55eb9155429f.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-3a2828948d754cd48b2f55eb9155429f.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-bcb9a18446ba43769024dc252f7520b2.html" target="element"> Analyse consultvraag </a> </td>
+																		<td> <a href="../elements/id-f0b5d13ca09d4cb3aca9c2dad8466006.html" target="element"> Analyse consultvraag 4.3 </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-1850adc98f1547e2a369d2d23641e066.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-1850adc98f1547e2a369d2d23641e066.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-bcb9a18446ba43769024dc252f7520b2.html" target="element"> Analyse consultvraag </a> </td>
+																		<td> <a href="../elements/id-69a49330fb8f4cda836f12c6f50f1043.html" target="element"> Analyse consultvraag 5.1 </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-64276fc6284f47d99a79b4f1dfa41138.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-64276fc6284f47d99a79b4f1dfa41138.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-bcb9a18446ba43769024dc252f7520b2.html" target="element"> Analyse consultvraag </a> </td>
+																		<td> <a href="../elements/id-9731da0b3c904315ac6003c4eda8148a.html" target="element"> Analyse consultvraag 5 </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-38113cca5f3a4bf08fc98da3e1901a32.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-38113cca5f3a4bf08fc98da3e1901a32.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-bcb9a18446ba43769024dc252f7520b2.html" target="element"> Analyse consultvraag </a> </td>
+																		<td> <a href="../elements/id-da50ddee54574b6da8e042a34fe16f3d.html" target="element"> Analyse consultvraag 5.2 </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-52ef2e5dbd19477682d202dececd4f3c.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-52ef2e5dbd19477682d202dececd4f3c.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-bcb9a18446ba43769024dc252f7520b2.html" target="element"> Analyse consultvraag </a> </td>
+																		<td> <a href="../elements/id-e81e9b25a3fc445bb5272e66f2fe28a2.html" target="element"> Analyse consultvraag 5.3 </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-5cc40260ddc246c39b50f32c5ec8a3b0.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-5cc40260ddc246c39b50f32c5ec8a3b0.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-bcb9a18446ba43769024dc252f7520b2.html" target="element"> Analyse consultvraag </a> </td>
+																		<td> <a href="../elements/id-c3af8bcf6b5f4285a1a640cfeefba4da.html" target="element"> Analyse consultvraag 6 </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-c45022def2bd4d92adbeea5e3adbb4b7.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-c45022def2bd4d92adbeea5e3adbb4b7.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-bcb9a18446ba43769024dc252f7520b2.html" target="element"> Analyse consultvraag </a> </td>
+																		<td> <a href="../elements/id-2e69d9d0b85845738d5422a2bdee3e9d.html" target="element"> Analyse consultvraag 6.1 </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-d3b1227259744de587fb85763996e8c6.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-d3b1227259744de587fb85763996e8c6.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-bcb9a18446ba43769024dc252f7520b2.html" target="element"> Analyse consultvraag </a> </td>
+																		<td> <a href="../elements/id-8e49fba3c71f4bbe86383a9088d4a8a9.html" target="element"> Analyse consultvraag 7 </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-dc7155f8c9674343ab8560aa74d94d1c.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-dc7155f8c9674343ab8560aa74d94d1c.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-bcb9a18446ba43769024dc252f7520b2.html" target="element"> Analyse consultvraag </a> </td>
+																		<td> <a href="../elements/id-dfcfe10d03e347d08fca6a47f4db7e22.html" target="element"> Analyse consultvraag 7.1 </a> </td>
+																	</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-64b6367eabda4692a540d8f3af344b29.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-64b6367eabda4692a540d8f3af344b29.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-ef22cb2722e94975b3b17ac8f96a1bf4.html" target="element"> Analyse consultvraag 1 </a> </td>
+																				<td> <a href="../elements/id-f7f45997489a44ae9c2b23bb8cf0db67.html" target="element"> Analyse consultvraag 1.1 </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-f849997f6e454b78b7b635ab5354caf0.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-f849997f6e454b78b7b635ab5354caf0.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-40a306f3e84f46d8a26696fd8db04ef1.html" target="element"> Analyse consultvraag 2 </a> </td>
+																				<td> <a href="../elements/id-80c42ab458a44e0f85b4fcb0a7e4672e.html" target="element"> Analyse consultvraag 2.1 </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-febd45c282534cd686c42e2f9a28cf56.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-febd45c282534cd686c42e2f9a28cf56.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-bf1010de00654282b87852e02b7481d3.html" target="element"> Analyse consultvraag 3 </a> </td>
+																				<td> <a href="../elements/id-e75e74c1af434010ac976effa34b34de.html" target="element"> Analyse consultvraag 3.1 </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-508d0210c1a644cda333266d0764ff3b.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-508d0210c1a644cda333266d0764ff3b.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-bf1010de00654282b87852e02b7481d3.html" target="element"> Analyse consultvraag 3 </a> </td>
+																				<td> <a href="../elements/id-0b4379df3913443cb1c173400fc8c598.html" target="element"> Analyse consultvraag 3.2 </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-6e2b22b275f044a68ad41da296213cd9.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-6e2b22b275f044a68ad41da296213cd9.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-bf1010de00654282b87852e02b7481d3.html" target="element"> Analyse consultvraag 3 </a> </td>
+																				<td> <a href="../elements/id-cbcc80c1b4ce4505b50f4552e76755e6.html" target="element"> Analyse consultvraag 3.3 </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-b2fa78dae0b94bf2bd55dee02045fd97.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-b2fa78dae0b94bf2bd55dee02045fd97.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-42e9e4a1c8034b82a1857a7fc3937f78.html" target="element"> Analyse consultvraag 4 </a> </td>
+																				<td> <a href="../elements/id-3b13e19df60446a68bf09b55787e98f3.html" target="element"> Analyse consultvraag 4.1 </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-daa93273c9d143c2b33472f92b8df186.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-daa93273c9d143c2b33472f92b8df186.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-42e9e4a1c8034b82a1857a7fc3937f78.html" target="element"> Analyse consultvraag 4 </a> </td>
+																				<td> <a href="../elements/id-fdaf3ee674d1474492eb647007086828.html" target="element"> Analyse consultvraag 4.2 </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-0dc6352f99174d2ba88cfc9fa28fcb46.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-0dc6352f99174d2ba88cfc9fa28fcb46.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-42e9e4a1c8034b82a1857a7fc3937f78.html" target="element"> Analyse consultvraag 4 </a> </td>
+																				<td> <a href="../elements/id-f0b5d13ca09d4cb3aca9c2dad8466006.html" target="element"> Analyse consultvraag 4.3 </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-af35b5e7a87d456096ef19bcd955c744.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-af35b5e7a87d456096ef19bcd955c744.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-9731da0b3c904315ac6003c4eda8148a.html" target="element"> Analyse consultvraag 5 </a> </td>
+																				<td> <a href="../elements/id-69a49330fb8f4cda836f12c6f50f1043.html" target="element"> Analyse consultvraag 5.1 </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-a942a75da2664f6587ee3c775d7676de.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-a942a75da2664f6587ee3c775d7676de.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-9731da0b3c904315ac6003c4eda8148a.html" target="element"> Analyse consultvraag 5 </a> </td>
+																				<td> <a href="../elements/id-da50ddee54574b6da8e042a34fe16f3d.html" target="element"> Analyse consultvraag 5.2 </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-4a5e8eab0af04e50a58595c9fe89dbcc.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-4a5e8eab0af04e50a58595c9fe89dbcc.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-9731da0b3c904315ac6003c4eda8148a.html" target="element"> Analyse consultvraag 5 </a> </td>
+																				<td> <a href="../elements/id-e81e9b25a3fc445bb5272e66f2fe28a2.html" target="element"> Analyse consultvraag 5.3 </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-1599ccc6a02a400ca14a97ce6c8a72bb.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-1599ccc6a02a400ca14a97ce6c8a72bb.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-c3af8bcf6b5f4285a1a640cfeefba4da.html" target="element"> Analyse consultvraag 6 </a> </td>
+																				<td> <a href="../elements/id-2e69d9d0b85845738d5422a2bdee3e9d.html" target="element"> Analyse consultvraag 6.1 </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-098e3f8a39cc434695877c9aa205f4d4.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-098e3f8a39cc434695877c9aa205f4d4.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-8e49fba3c71f4bbe86383a9088d4a8a9.html" target="element"> Analyse consultvraag 7 </a> </td>
+																				<td> <a href="../elements/id-dfcfe10d03e347d08fca6a47f4db7e22.html" target="element"> Analyse consultvraag 7.1 </a> </td>
+																			</tr>
+
+											
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelReference -->
+
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
