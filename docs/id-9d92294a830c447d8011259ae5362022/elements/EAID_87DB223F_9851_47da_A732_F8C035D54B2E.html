@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Advisering </title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Advisering </b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-BusinessFunction"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-BusinessFunction" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+                    	<li role="presentation"><a href="#analysis" aria-controls="analysis" role="tab" data-toggle="tab" class="i18n-analysis"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Het geven van behandeladvies.</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr id="used-in-views-id-d20c8983899742b1b6d81fa1be1b7971">
+																	<td><a href="../views/id-d20c8983899742b1b6d81fa1be1b7971.html" target="view" title="01. Informatiedomeinen MsZ"> 01. Informatiedomeinen MsZ </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-5431ccde34f4432fb313ac400da4bb48">
+																	<td><a href="../views/id-5431ccde34f4432fb313ac400da4bb48.html" target="view" title="0302. Consultatie - Advisering"> 0302. Consultatie - Advisering </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+									<tr>
+											<td><a href="../elements/id-68ae9434b3e445a69e9bb7f9c3fc5374.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AccessRelationship" /></td>
+											<td><a href="../elements/EAID_87DB223F_9851_47da_A732_F8C035D54B2E.html" target="element"> Advisering </a></td>
+											<td><a href="../elements/EAID_CBDE59E6_5684_492b_B9AC_2F2D4FE64D3D.html" target="element"> Adviesverslag </a></td>
+										</tr><tr>
+											<td><a href="../elements/id-a2e063e875084a67aef58f7783787311.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AccessRelationship" /></td>
+											<td><a href="../elements/EAID_87DB223F_9851_47da_A732_F8C035D54B2E.html" target="element"> Advisering </a></td>
+											<td><a href="../elements/EAID_06C399F1_EF42_4303_93BA_75E3193EA0C0.html" target="element"> Advies </a></td>
+										</tr><tr>
+											<td><a href="../elements/EAID_57F617CF_0D28_45bd_8968_A0149C71B819.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/EAID_87DB223F_9851_47da_A732_F8C035D54B2E.html" target="element"> Advisering </a></td>
+											<td><a href="../elements/EAID_B8ABB65F_C86B_4643_8164_9D3A2622706C.html" target="element"> Adviseren pati&#235;nt </a></td>
+										</tr><tr>
+											<td><a href="../elements/EAID_82559CAE_0784_49f1_B67B_46188AD49A6D.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/EAID_87DB223F_9851_47da_A732_F8C035D54B2E.html" target="element"> Advisering </a></td>
+											<td><a href="../elements/EAID_9F5A8122_3711_4e96_AE81_1111FBE0D2ED.html" target="element"> Accepteren advies aanvraag </a></td>
+										</tr><tr>
+											<td><a href="../elements/EAID_BD56BB7C_8137_4e3e_86BF_F090A103EABA.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/EAID_87DB223F_9851_47da_A732_F8C035D54B2E.html" target="element"> Advisering </a></td>
+											<td><a href="../elements/EAID_409B5D2A_EBA4_44e1_9C7E_B1E590A24BA3.html" target="element"> Bepalen behandeladvies </a></td>
+										</tr>
+									<tr>
+											<td><a href="../elements/id-377b205164b147f59bee7bf851b5e65b.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-ecc787d639c84e159f7269f04e29e9c3.html" target="element"> Consultatie </a></td>
+											<td><a href="../elements/EAID_87DB223F_9851_47da_A732_F8C035D54B2E.html" target="element"> Advisering </a></td>
+										</tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
