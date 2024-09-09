@@ -81,70 +81,7 @@
 				<!-- Tab panes -->
 				<div class="tab-content">
 					<div role="tabpanel" class="tab-pane active" id="documentation">
-						<div class="convertlinks documentation" style="white-space:pre-wrap">Om gegevens voor een consultvraag te kunnen faciliteren met FHIR (Fast Healthcare Interoperability Resources), heb je een combinatie van verschillende FHIR resources nodig. Hier zijn de belangrijkste resources die vaak betrokken zijn bij het proces van het initi&#235;ren, beheren en documenteren van een consultvraag:
-
-1. **ServiceRequest**:
-   - **Beschrijving**: Dit resource wordt gebruikt om een verzoek voor een bepaalde dienst (zoals een consult) vast te leggen. Het bevat informatie over de gevraagde dienst, de aanvrager, en de pati&#235;nt waarvoor de dienst is bedoeld.
-   - **Belangrijke velden**: 
-     - `status`: De status van het verzoek (bijv. actief, voltooid).
-     - `intent`: De bedoeling van het verzoek (bijv. order, plan).
-     - `subject`: De pati&#235;nt waarvoor de dienst is aangevraagd.
-     - `requester`: De zorgverlener die het verzoek heeft gedaan.
-     - `performer`: De zorgverlener of organisatie die het consult moet uitvoeren.
-
-2. **Patient**:
-   - **Beschrijving**: Deze resource vertegenwoordigt de pati&#235;nt die het onderwerp is van de consultvraag.
-   - **Belangrijke velden**: 
-     - `identifier`: Unieke identificatoren voor de pati&#235;nt.
-     - `name`: Naam van de pati&#235;nt.
-     - `telecom`: Contactinformatie.
-     - `address`: Adres van de pati&#235;nt.
-     - `generalPractitioner`: De huisarts van de pati&#235;nt.
-
-3. **Practitioner**:
-   - **Beschrijving**: Deze resource beschrijft de zorgverlener die betrokken is bij de consultvraag, zowel de aanvrager als de uitvoerder.
-   - **Belangrijke velden**: 
-     - `identifier`: Unieke identificatoren voor de zorgverlener.
-     - `name`: Naam van de zorgverlener.
-     - `telecom`: Contactinformatie.
-     - `address`: Adres van de zorgverlener.
-
-4. **PractitionerRole**:
-   - **Beschrijving**: Deze resource definieert de rol van de zorgverlener in de context van de consultvraag.
-   - **Belangrijke velden**: 
-     - `practitioner`: Verwijzing naar de Practitioner resource.
-     - `organization`: Verwijzing naar de organisatie waarvoor de zorgverlener werkt.
-     - `code`: De rol van de zorgverlener (bijv. specialist, huisarts).
-
-5. **Encounter**:
-   - **Beschrijving**: Deze resource beschrijft de interactie tussen de pati&#235;nt en de zorgverlener in het kader van de consultvraag.
-   - **Belangrijke velden**: 
-     - `status`: De status van de ontmoeting (bijv. gepland, in uitvoering).
-     - `class`: Het type ontmoeting (bijv. ambulante zorg, ziekenhuisopname).
-     - `type`: Het type dienst dat wordt geleverd (bijv. consult).
-     - `subject`: De pati&#235;nt die betrokken is bij de ontmoeting.
-     - `participant`: De zorgverleners die deelnemen aan de ontmoeting.
-
-6. **Condition**:
-   - **Beschrijving**: Deze resource beschrijft de medische aandoeningen of diagnoses die relevant zijn voor de consultvraag.
-   - **Belangrijke velden**: 
-     - `clinicalStatus`: De klinische status van de aandoening.
-     - `verificationStatus`: De bevestigingsstatus van de aandoening.
-     - `category`: De categorie van de aandoening (bijv. probleemlijst).
-     - `code`: De code die de aandoening beschrijft (bijv. ICD-10 code).
-
-7. **DiagnosticReport**:
-   - **Beschrijving**: Dit resource bevat de resultaten van diagnostische tests of onderzoeken die relevant kunnen zijn voor het consult.
-   - **Belangrijke velden**: 
-     - `status`: De status van het diagnostische rapport.
-     - `category`: De categorie van het rapport (bijv. laboratorium, radiologie).
-     - `code`: De code die het type diagnostisch rapport beschrijft.
-     - `subject`: De pati&#235;nt die het onderwerp is van het rapport.
-     - `result`: Verwijzingen naar de resultaten van diagnostische tests.
-
-Door deze FHIR resources samen te gebruiken, kun je een uitgebreid en gestructureerd beeld krijgen van de consultvraag, inclusief de aanvraag, betrokken partijen, relevante medische informatie en diagnostische resultaten. Dit bevordert de interoperabiliteit en zorgt voor een effici&#235;nte uitwisseling van gegevens tussen verschillende zorginformatiesystemen.
-
-Heeft u nog specifieke vragen of details nodig over een van deze resources?</div>
+						<div class="convertlinks documentation" style="white-space:pre-wrap"></div>
 					</div>
 					<div role="tabpanel" class="tab-pane" id="properties">
 						<table class="table table-striped table-hover table-condensed">
