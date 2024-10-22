@@ -2,7 +2,7 @@
 <html class="frame" lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-	<title>Niveau 11</title>
+	<title>Referentiedomeinmodellen MsZ, GGZ, en Care</title>
 
 	<!-- JQUERY -->
 	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
@@ -21,11 +21,11 @@
 
 		<div class="panel-heading root-panel-heading">
             <!-- Name -->
-               <b>Niveau 11</b>
+               <b>Referentiedomeinmodellen MsZ, GGZ, en Care</b>
 
             <!-- If a View with Viewpoint -->
-			   (<span class="i18n-elementtype-Plateau"></span>)
-			   <a class="glyphicon glyphicon-info-sign" id="hint-Plateau" target="hint"></a>
+			   (<span class="i18n-elementtype-DiagramModelGroup"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-DiagramModelGroup" target="hint"></a>
 		</div>
 
 		<div class="panel-body root-panel-body">
@@ -41,8 +41,10 @@
                     <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
 
                     <!-- Analysis -->
-                    	<li role="presentation"><a href="#analysis" aria-controls="analysis" role="tab" data-toggle="tab" class="i18n-analysis"></a></li>
 
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
 				</ul>
 
 				<!-- Tab panes -->
@@ -72,19 +74,6 @@
 								</tr>
 							</thead>
 							<tbody>
-								<tr id="used-in-views-id-f421434842e54ff09016fb247b1a5edf">
-																	<td><a href="../views/id-f421434842e54ff09016fb247b1a5edf.html" target="view" title="13. Architectuurrol invullen"> 13. Architectuurrol invullen </a></td>
-																	<td><span class="i18n-viewpoint-" /></td>
-																</tr><tr id="used-in-views-id-7fca515299b54d3ba6a7b4090dd09da8">
-																	<td><a href="../views/id-7fca515299b54d3ba6a7b4090dd09da8.html" target="view" title="14. Architectuurmethode volgen"> 14. Architectuurmethode volgen </a></td>
-																	<td><span class="i18n-viewpoint-" /></td>
-																</tr><tr id="used-in-views-id-750833f5318945ad95e20026656784a3">
-																	<td><a href="../views/id-750833f5318945ad95e20026656784a3.html" target="view" title="09. Architectuurkwaliteit borgen"> 09. Architectuurkwaliteit borgen </a></td>
-																	<td><span class="i18n-viewpoint-" /></td>
-																</tr><tr id="used-in-views-id-3874878ef8d44d19ab234c1750055bb6">
-																	<td><a href="../views/id-3874878ef8d44d19ab234c1750055bb6.html" target="view" title="00. DYA Volwassenheidsmatrix"> 00. DYA Volwassenheidsmatrix </a></td>
-																	<td><span class="i18n-viewpoint-layered" /></td>
-																</tr>
 							</tbody>
 						</table>
 						<table class="table table-striped table-hover table-condensed" id="model-relations">
@@ -98,25 +87,58 @@
 								</tr>
 							</thead>
 							<tbody>
-									<tr>
-											<td><a href="../elements/id-fae89830d8ac464cb097476938c350e9.html" target="element" title=""></a></td>
-											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
-											<td><a href="../elements/id-bb738ff1cc444086bb979f9ee20aed5e.html" target="element"> Niveau 11</a></td>
-											<td><a href="../elements/id-495ca0ceee4a491a9c8ba31165895c59.html" target="element"> Toets architectuurkwaliteit vanuit kwaliteitsmanagement</a></td>
-										</tr><tr>
-											<td><a href="../elements/id-f06dc1ede8ab4dec9dc6e7bcf437c832.html" target="element" title=""></a></td>
-											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
-											<td><a href="../elements/id-bb738ff1cc444086bb979f9ee20aed5e.html" target="element"> Niveau 11</a></td>
-											<td><a href="../elements/id-672c9325cc0c4bcc82334ed6a2717f0d.html" target="element"> Architectuurrol waarderen</a></td>
-										</tr><tr>
-											<td><a href="../elements/id-69513d510f7441acb632afb683300822.html" target="element" title=""></a></td>
-											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
-											<td><a href="../elements/id-bb738ff1cc444086bb979f9ee20aed5e.html" target="element"> Niveau 11</a></td>
-											<td><a href="../elements/id-9f89ff8177e649598bbe3d1f239b9c98.html" target="element"> Architectuurmethode inbedden in veranderproces</a></td>
-										</tr>
 							</tbody>
 						</table>
 					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr>
+											    <td> <a href="../views/EAID_05804302_CE55_4989_B8AA_DF86535082A4.html" target="view"> 01. Informatiedomeinen GGZ (RDG) </a> </td>
+											    <td> <a href="../views/EAID_05804302_CE55_4989_B8AA_DF86535082A4.html" target="view" class="i18n-viewpoint-"> </a> </td>
+											</tr>
+									    <!-- Other graphical objects -->
+
+											<tr>
+											    <td> <a href="../views/EAID_19580AED_B75B_4d35_9ED3_EA091B8F6D23.html" target="view"> 01. Informatiedomeinen Care (RDC) </a> </td>
+											    <td> <a href="../views/EAID_19580AED_B75B_4d35_9ED3_EA091B8F6D23.html" target="view" class="i18n-viewpoint-"> </a> </td>
+											</tr>
+									    <!-- Other graphical objects -->
+
+											<tr>
+											    <td> <a href="../views/id-d20c8983899742b1b6d81fa1be1b7971.html" target="view"> 01. Informatiedomeinen MsZ </a> </td>
+											    <td> <a href="../views/id-d20c8983899742b1b6d81fa1be1b7971.html" target="view" class="i18n-viewpoint-"> </a> </td>
+											</tr>
+									    <!-- Other graphical objects -->
+
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelReference -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelReference -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelReference -->
+
+								</tbody>
+							</table>
+						</div>
 			  </div>
 			</div>
 		</div>
