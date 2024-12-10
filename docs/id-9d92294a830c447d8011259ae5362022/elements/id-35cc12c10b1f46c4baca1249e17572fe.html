@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Verwijziging/ overdracht</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Verwijziging/ overdracht</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-BusinessProcess"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-BusinessProcess" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+                    	<li role="presentation"><a href="#analysis" aria-controls="analysis" role="tab" data-toggle="tab" class="i18n-analysis"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">De zorg wordt overgedragen van ontvanger naar verzender. Het dossier wordt gesloten bij de verzender en de behandeling inclusief dossiervoering en declaratie wordt overgenomen door de ontvanger (na acceptatie).
+
+[zie properties voor aanvullende informatie]</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>Type</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Geplande zorg</td></tr><tr><td>Initiatief</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Verzender</td></tr><tr><td>Hoofdbehandelar</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Ontvanger (na ontvangst)</td></tr><tr><td>Duur</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Permanent</td></tr><tr><td>Twiin</td><td class="convertlinks no-margin" style="white-space:pre-wrap">https://twiin-afsprakenstelsel.scrollhelp.site/tc13/10-1-1-functionele-use-cases-databeschikbaarheid#id-10.1.1|Functioneleusecasesdatabeschikbaarheid-Verwijzing/OverdrachtVerwijzing/overdracht</td></tr>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr id="used-in-views-id-2b31f8d3b4eb456d82cc544b6aa492a5">
+																	<td><a href="../views/id-2b31f8d3b4eb456d82cc544b6aa492a5.html" target="view" title="0202. Samenwerking - Informatie-uitwisseling"> 0202. Samenwerking - Informatie-uitwisseling </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-f761c86e91da49a9aa540826049f8c61">
+																	<td><a href="../views/id-f761c86e91da49a9aa540826049f8c61.html" target="view" title="0204. Samenwerking - Informatieuitwisseling"> 0204. Samenwerking - Informatieuitwisseling </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-EAID_4F11DF7C_0583_4838_AF92_AB36771EE068">
+																	<td><a href="../views/EAID_4F11DF7C_0583_4838_AF92_AB36771EE068.html" target="view" title="0202. Samenwerking - Informatie uitwisseling"> 0202. Samenwerking - Informatie uitwisseling </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+									<tr>
+											<td><a href="../elements/id-a5bb594868574ab3842ef8aba4069eb8.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/id-01bf4357ced64984ac5b418c2dba8191.html" target="element"> Informatieuitwisseling</a></td>
+											<td><a href="../elements/id-35cc12c10b1f46c4baca1249e17572fe.html" target="element"> Verwijziging/ overdracht</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-a2686174d3764c21ad07f4e63f167ac2.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/EAID_4811B2DE_9B82_4187_B8AB_EA06CA2BEBC6.html" target="element"> Informatie- uitwisseling</a></td>
+											<td><a href="../elements/id-35cc12c10b1f46c4baca1249e17572fe.html" target="element"> Verwijziging/ overdracht</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-4a3acaf40f844b14be4c4ecddafc3faf.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/EAID_D25E0B4A_AAE0_4510_BD7E_44E3F6DDCE7C.html" target="element"> Informatieuitwisseling</a></td>
+											<td><a href="../elements/id-35cc12c10b1f46c4baca1249e17572fe.html" target="element"> Verwijziging/ overdracht</a></td>
+										</tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

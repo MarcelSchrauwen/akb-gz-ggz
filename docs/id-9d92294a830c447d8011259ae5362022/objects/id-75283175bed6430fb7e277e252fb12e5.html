@@ -2,7 +2,7 @@
 <html class="frame" lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-	<title>Zorginformatiesystemen</title>
+	<title>Zorginformatiesysteem Zorgaanbieder A - gericht verzenden</title>
 
 	<!-- JQUERY -->
 	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
@@ -21,7 +21,7 @@
 
 		<div class="panel-heading root-panel-heading">
             <!-- Name -->
-               <b>Zorginformatiesystemen</b>
+               <b>Zorginformatiesysteem Zorgaanbieder A - gericht verzenden</b>
 
             <!-- If a View with Viewpoint -->
 			   (<span class="i18n-elementtype-DiagramModelGroup"></span>)
@@ -42,12 +42,18 @@
 
                     <!-- Analysis -->
 
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
 				</ul>
 
 				<!-- Tab panes -->
 				<div class="tab-content">
 					<div role="tabpanel" class="tab-pane active" id="documentation">
-						<div class="convertlinks documentation" style="white-space:pre-wrap">Welke zorginformatiesystemen zijn betrokken?</div>
+						<div class="convertlinks documentation" style="white-space:pre-wrap">- Zorgaanbieder A kiest gegevens die gedeeld moeten worden.
+- Zorgaanbieder A verstuurt de gegevens naar zorgaanbieder B.
+
+[zie ook properties tab]</div>
 					</div>
 					<div role="tabpanel" class="tab-pane" id="properties">
 						<table class="table table-striped table-hover table-condensed">
@@ -58,6 +64,7 @@
 								</tr>
 							</thead>
 							<tbody>
+								<tr><td>Initiatief</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Houder van de gegevens</td></tr><tr><td>Technische naam</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Sender push</td></tr><tr><td>Technische afspraak naam</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Push</td></tr>
 							</tbody>
 						</table>
 					</div>
@@ -87,6 +94,76 @@
 							</tbody>
 						</table>
 					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+									        <tr>
+									           <td> <a href="../objects/id-ac76d0026cda4253b6f4d77aa4c7dea3.html" target="element"> Identificatie gebruiker </a> </td>
+									           <td> <a href="../objects/id-ac76d0026cda4253b6f4d77aa4c7dea3.html" target="element" class="i18n-elementtype-DiagramModelGroup"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/id-16cc4f2e02da4c7996f9ef4e7eff18c3.html" target="element"> Authenticatie gebruiker </a> </td>
+									           <td> <a href="../objects/id-16cc4f2e02da4c7996f9ef4e7eff18c3.html" target="element" class="i18n-elementtype-DiagramModelGroup"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/id-c6c37a3ff64b4faea0451ac2e451c229.html" target="element"> Autorisatie gebruiker </a> </td>
+									           <td> <a href="../objects/id-c6c37a3ff64b4faea0451ac2e451c229.html" target="element" class="i18n-elementtype-DiagramModelGroup"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/id-ab858009e1d54794a2958beeb773459d.html" target="element"> Toestemming pati&#235;nt </a> </td>
+									           <td> <a href="../objects/id-ab858009e1d54794a2958beeb773459d.html" target="element" class="i18n-elementtype-DiagramModelGroup"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/id-f5c17bd3b30a45fe957e9cf1ed612903.html" target="element"> Lokalisatie ontvanger </a> </td>
+									           <td> <a href="../objects/id-f5c17bd3b30a45fe957e9cf1ed612903.html" target="element" class="i18n-elementtype-DiagramModelGroup"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/id-778625b52fb7429a955cc0c766d2f368.html" target="element"> Addresseren gegevens </a> </td>
+									           <td> <a href="../objects/id-778625b52fb7429a955cc0c766d2f368.html" target="element" class="i18n-elementtype-DiagramModelGroup"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/id-2422e77252c5406387fe7bdb58c228fc.html" target="element"> verzenden gegevens </a> </td>
+									           <td> <a href="../objects/id-2422e77252c5406387fe7bdb58c228fc.html" target="element" class="i18n-elementtype-DiagramModelGroup"> </a> </td>
+									        </tr>
+
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelGroup -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelGroup -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelGroup -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelGroup -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelGroup -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelGroup -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelGroup -->
+
+								</tbody>
+							</table>
+						</div>
 			  </div>
 			</div>
 		</div>
